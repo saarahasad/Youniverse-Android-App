@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:background="#E0E0E0">
+       <!-- <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/nav_twitter"
+            android:title="Twitter" />-->
+
+    </group>
+
+    <item android:title="Choose your area of interest!"
+        >
+        <menu
+            android:background="#E0E0E0">
+          <!--  <item
+                android:id="@+id/nav_education"
+                android:icon="@drawable/nav_education"
+                android:title="Education and Career" />-->
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/nav_food"
+                android:title="Twitter" />
+          <item
+                android:id="@+id/nav_food"
+                android:icon="@drawable/nav_food"
+                android:title="Food" />
+          <item
+              android:id="@+id/nav_music"
+              android:icon="@drawable/nav_music"
+              android:title="Music" />
+
+          <item
+              android:id="@+id/nav_entertainment"
+              android:icon="@drawable/nav_entertainment"
+              android:title="Entertainment" />
+        </menu>
+    </item>
+
+</menu>

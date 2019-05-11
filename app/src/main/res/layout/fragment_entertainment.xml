@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+       >
+
+
+
+
+        <TextView android:id="@+id/link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/white"
+            android:text="Movies and T.V. Shows"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:textSize="16dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre:"
+            android:textColor="@color/white"
+            android:layout_below="@+id/input_layout_name"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            />
+
+
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/comedy"
+                android:layout_width="0px"
+
+                android:layout_height="100dp"
+                android:layout_weight="2"
+                />
+
+            <ImageView
+                android:id="@+id/romance"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/action"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:layout_weight="2.5"
+                />
+
+            <ImageView
+                android:id="@+id/horror"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:layout_weight="1.5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/adventure"
+                android:layout_width="0px"
+
+                android:layout_height="100dp"
+                android:src="@drawable/jazz"
+                android:layout_weight="1.5"
+                />
+
+            <ImageView
+                android:id="@+id/animation"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:src="@drawable/blues"
+                android:layout_weight="2.5"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/sciencefic"
+                android:layout_width="0px"
+
+                android:layout_height="100dp"
+                android:src="@drawable/country"
+                android:layout_weight="2"
+                />
+
+            <ImageView
+                android:id="@+id/doc"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:src="@drawable/folk"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language:"
+            android:textColor="@color/white"
+            android:layout_below="@+id/input_layout_name"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/english"
+                android:layout_width="0px"
+
+                android:layout_height="100dp"
+                android:layout_weight="2"
+                />
+
+            <ImageView
+                android:id="@+id/hindi"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/korean"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:layout_weight="2"
+                />
+
+            <ImageView
+                android:id="@+id/mandarin"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/russian"
+                android:layout_width="0px"
+
+                android:layout_height="100dp"
+                android:src="@drawable/jazz"
+                android:layout_weight="2"
+                />
+
+            <ImageView
+                android:id="@+id/german"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:src="@drawable/blues"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/spanish"
+                android:layout_width="0px"
+
+                android:layout_height="100dp"
+                android:src="@drawable/country"
+                android:layout_weight="2"
+                />
+
+            <ImageView
+                android:id="@+id/japanese"
+                android:layout_width="0px"
+                android:layout_height="100dp"
+                android:src="@drawable/folk"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+
+
+
+        <Button android:id="@+id/submit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="#879c9c9c"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"/>
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

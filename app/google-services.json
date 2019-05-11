@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "870288886303",
+    "firebase_url": "https://youniverse-90552.firebaseio.com",
+    "project_id": "youniverse-90552",
+    "storage_bucket": "youniverse-90552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870288886303:android:27bbf117be5931a4",
+        "android_client_info": {
+          "package_name": "com.example.Youniverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870288886303-er9024ioer62g7915s4gce1qvrgjvt1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRqLm0kH-HlyUJy8xCDAH1C_2OZ8TqAcY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
